@@ -1,0 +1,48 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "google"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "env": {
+    "browser": true
+  },
+  "plugins": [
+    "html"
+  ],
+  "rules": {
+    "brace-style": "off",
+    "new-cap": [
+      "error",
+      {
+        "capIsNewExceptions": [
+          "Polymer"
+        ]
+      }
+    ],
+    "no-var": "off",
+    "require-jsdoc": [
+      "error",
+      {
+        "require": {
+          "FunctionDeclaration": true,
+          "MethodDefinition": false,
+          "ClassDeclaration": true,
+          "ArrowFunctionExpression": false
+        }
+      }
+    ]
+  },
+  "globals": {
+    "Polymer": true,
+    "suite": true,
+    "test": true,
+    "fixture": true,
+    "expect": true,
+    "setup": true,
+    "MockInteractions": true,
+    "WCT": true
+  }
+}
