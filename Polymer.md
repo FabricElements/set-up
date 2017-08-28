@@ -17,8 +17,8 @@ $ polymer init
 and paste it in `package.json`.
 4. Install and update node dependencies
 ```shell
-$ node install
-$ node update
+$ npm install
+$ npm update
 ```
 Or if you use yarn
 ```shell
