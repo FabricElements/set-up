@@ -18,11 +18,13 @@
       "error",
       {
         "capIsNewExceptions": [
-          "Polymer"
+          "Polymer",
+          "Polymer.GestureEventListeners"
         ]
       }
     ],
-    "no-var": "off",
+    "no-var": "error",
+    "no-console": "off",
     "require-jsdoc": [
       "error",
       {
@@ -32,6 +34,14 @@
           "ClassDeclaration": true,
           "ArrowFunctionExpression": false
         }
+      }
+    ],
+    "no-multiple-empty-lines": [
+      2,
+      {
+        "max": 1,
+        "maxBOF": 0,
+        "maxEOF": 1
       }
     ]
   },
