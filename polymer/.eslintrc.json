@@ -50,6 +50,7 @@
     "Polymer": true,
     "fixture": true,
     "MockInteractions": true,
-    "WCT": true
+    "WCT": true,
+    "firebase": true
   }
 }
